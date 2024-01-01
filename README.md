@@ -1,12 +1,20 @@
 # WC-Auth
-Basic PAP Tracking Flask Appliciation for Winter Coalition PAP backend.
+Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition PAP backend.
 
-Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of the ESI viewing tool.
+Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of an ESI viewing tool (Crobar Copy I am calling Carbon).
+ - Request generating a report and fetch ESI on specific users.
+ - Automatic Report generation on flagged users. (and flagging users!) eg. TEST Group Please Ignore, Probably Spy.
+ - Hull ID mapping and other fancy automation tools.
+ - Supercapital and Structure Tracking.
 
-FleetTrack.py is the current "Frontend" which is being moved over to a webpage.
-The end goal is to provide a simple, but appealing fleet viewer where people can view their paps.
-PAPs include fc_name, pap_type, and fleet_members alongside their time in fleet, ships, and systems.
+FleetTracking.py is the current Frontend which is being development into a simple to use webpage that can allow users to track their current fleet attendance, FCs to pap fleets, and overall CI viewing Fleet Attendance.
 
-Alongside this a tool is in production to automate pointing out outliers and tying this into flagging mumble-concurrence alongside ingame fleet attendance.
+Fleet information includes: fc_name, pap_type, and fleet_members alongside their time in fleet, ships, and systems.
 
-Secret Keys, etc. used in this are test applications and obviously do not represent the productive environment.
+Eventually:
+- Linking characters through Auth.
+- Ingame Fleet/Mumble Concurrance (longside Mumble Hash archiving).
+- Extra PAP for people doing special things eg. FC backseating.
+- Frontend Discord Bot (CI Bot integration) / Webpage (with IP/user_agent logging).
+
+Notice: Secret Keys, etc. used in this are test applications and obviously do not represent the productive environment.
