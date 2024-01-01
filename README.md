@@ -1,7 +1,7 @@
 # WC-Auth
 Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition PAP backend.
 
-Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of an ESI viewing tool (Crobar Copy I am calling Carbon).
+Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of an ESI viewing tool (Carbon).
  - Request generating a report and fetch ESI on specific users.
  - Automatic Report generation on flagged users. (and flagging users!) eg. TEST Group Please Ignore, Probably Spy.
  - Hull ID mapping and other fancy automation tools.
