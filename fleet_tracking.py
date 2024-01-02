@@ -1,3 +1,4 @@
+
 from flask import Flask, request, jsonify
 import sqlite3
 import requests
@@ -99,7 +100,7 @@ def fetch_fleet_member_data(fleet_id, character_id):
         cursor = conn.cursor()
         for member in members_data:
             cursor.execute("INSERT INTO fleet_members (fleet_id, character_id, character_name, ship_type, solar_system_id, fleet_time) VALUES (?, ?, ?, ?, ?, ?)",
-                           (fleet_id, member['character_id'], member.get('character_name', ''), member['ship_type_id'], member.get('solar_system_id', 0), fleet_time))
+                           (fleet_id, member['character_id'], member.get('character_name', ''), member['ship_type_id'], member.get('solar_system_id', 0), datetime.datetime.now()))
         conn.commit()
         conn.close()
     else:
