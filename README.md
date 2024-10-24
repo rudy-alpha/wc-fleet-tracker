@@ -1,6 +1,6 @@
 # Winter Fleet Tracker
 
-Another Unfinished Project:
+Another Unfinished Proof of Concept
 
 This was the beginning for, Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition Fleet Tracker backend.
 
