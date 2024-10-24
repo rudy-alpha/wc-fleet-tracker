@@ -1,8 +1,8 @@
-# Winter Auth Pap Test Tool
+# Winter Fleet Tracker
 
 Another Unfinished Project:
 
-This was the beginning for, Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition PAP backend.
+This was the beginning for, Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition Fleet Tracker backend.
 
 Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of an ESI viewing tool (Carbon).
  - Request generating a report and fetch ESI on specific users.
