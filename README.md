@@ -1,5 +1,8 @@
-# WC-Auth
-Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition PAP backend.
+# Winter Auth Pap Test Tool
+
+Another Unfinished Project:
+
+This was the beginning for, Basic Fleet Tracking and ESI Viewing Flask Appliciation for Winter Coalition PAP backend.
 
 Authentication handles all scopes through the login endpoint and this will be expanded into a redevelopment of an ESI viewing tool (Carbon).
  - Request generating a report and fetch ESI on specific users.
